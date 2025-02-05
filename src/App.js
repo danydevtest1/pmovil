@@ -1,11 +1,11 @@
-import {Ej01} from './components/Ejemplos';
-
+import { BrowserRouter } from "react-router-dom";
+import { RutasProyecto } from "./routes";
 
 function App() {
   return (
-    <div >
-    <Ej01/>
-    </div>
+    <BrowserRouter>
+      <RutasProyecto />
+    </BrowserRouter>
   );
 }
 
